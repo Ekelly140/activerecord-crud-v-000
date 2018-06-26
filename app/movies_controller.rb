@@ -80,7 +80,7 @@ def can_update_multiple_items_at_once
   end
   5.times do |i|
     m = Movie.findby(title: "Movie_#{i}")
-    m.update(title: "A Movie"
+    m.update(title: "A Movie")
 end
 
 def can_destroy_a_single_item
